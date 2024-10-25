@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /elearning-tdmu/source/
+
+# Chuyển hướng yêu cầu tới thư mục gốc tới index.html
+RewriteRule ^$ index.html [L]
+
+# Chuyển hướng yêu cầu tới trang chính
+RewriteRule ^pages/?$ pages/DaoTaoDHChinhQuy.php [L]
+
